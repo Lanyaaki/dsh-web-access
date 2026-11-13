@@ -1,0 +1,11 @@
+# The web-access bundle: one host row whose volatile fields the Settings page
+# edits live.
+#
+# The row carries no configuration of its own. The page owns the three values
+# — the phone address, the session lifetime, and the fixed launch token — and
+# the Settings service persists them in the profile patch, so the bundle layer
+# stays free of deployment values.
+
+- insert:
+    - id: web-access
+      name: '@local/dsh-web-access'

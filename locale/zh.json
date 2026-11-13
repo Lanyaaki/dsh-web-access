@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Web 访问",
+    "description": "固定 Web GUI 的启动令牌、延长会话 Cookie，并把手机访问地址以二维码发布。"
+  }
+}

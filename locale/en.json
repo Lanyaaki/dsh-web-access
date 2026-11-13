@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Web access",
+    "description": "Pins the Web GUI launch token, extends the session cookie, and publishes the phone URL as a QR code."
+  }
+}
