@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: "@local/dsh-web-access",
+  id: "dsh-web-access",
   factory(require) {
     // The browser loads this file as an ES module, where `exports` and
     // `module` do not exist; the plugin face is built inside the factory.
@@ -24,7 +24,7 @@ window.__ModuleLoader__.load({
     /** Host profile entry whose volatile fields this page edits. */
     const ENTRY_ID = "web-access";
     /** This bundle's package name: the key its configuration registers under. */
-    const BUNDLE_NAME = "@local/dsh-web-access";
+    const BUNDLE_NAME = "dsh-web-access";
     /** Route carrying the non-secret view of the current state. */
     const STATE_PATH = "/web-access/state";
     /** Route serving the QR code of the effective phone URL. */

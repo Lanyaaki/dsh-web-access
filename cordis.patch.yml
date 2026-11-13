@@ -8,4 +8,4 @@
 
 - insert:
     - id: web-access
-      name: '@local/dsh-web-access'
+      name: 'dsh-web-access'

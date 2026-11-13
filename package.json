@@ -1,5 +1,5 @@
 {
-  "name": "@local/dsh-web-access",
+  "name": "dsh-web-access",
   "version": "1.0.0",
   "private": true,
   "type": "module",

@@ -2,7 +2,7 @@ import z from "@deepseek-ai/schemastery";
 import QRCode from "qrcode";
 
 /**
- * @local/dsh-web-access — Host half: a live, page-editable launch token and
+ * dsh-web-access — Host half: a live, page-editable launch token and
  * session lifetime for the Web GUI.
  *
  * `dsh-client-connection` mints a random launch token per process and a
@@ -30,7 +30,7 @@ import QRCode from "qrcode";
  * this plugin fails loudly at boot instead of silently keeping the random
  * token.
  *
- * @module @local/dsh-web-access
+ * @module dsh-web-access
  */
 
 /** Stable Cordis plugin name. */
